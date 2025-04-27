@@ -32,7 +32,7 @@ spring-security-test
   7. /sortExcellent : sort excellent students by: sortBy(Column) and direction("asc" or "desc")
   8. /filter : filter all student with filterField(Column) and filterValue(input)
   9. /filterExcellent : filter excellent students with filterField(Column) and filterValue(input)
-### /student: with column: Email, Department and GPA:
+### /honorStudent: with column: Email, Department and GPA:
   1. /getHonorStudents : get all the honor students
   2. /getHighestGpaPerDepartment : get the best student from each department
   3. /sortHonorStudents : sort honor student by: sortBy(Column) and direction("asc" or "desc")
