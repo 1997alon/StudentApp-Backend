@@ -1,0 +1,11 @@
+CREATE TABLE `student` (
+  `id` bigint NOT NULL AUTO_INCREMENT,
+  `first_name` varchar(50) NOT NULL,
+  `last_name` varchar(50) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `gpa` int NOT NULL,
+  `department` enum('COMPUTER_SCIENCE','ENGINEER','MATHEMATICS','PHYSICS') NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `email` (`email`),
+  CONSTRAINT `chk_gpa` CHECK (((`gpa` >= 0) and (`gpa` <= 100)))
+) ENGINE=InnoDB AUTO_INCREMENT=58 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
