@@ -2,16 +2,17 @@
 ## go to the Front: [StudentApp Front](https://github.com/1997alon/StudentApp-Front)
 Backend made in Java spring with Maven
 ## maven dependecies:
-spring-boot-starter-actuator
-spring-boot-starter-data-jpa:
-spring-boot-starter-validation
-spring-boot-starter-web
-spring-boot-devtools
-mysql-connector-j
-lombok
-spring-boot-starter-test
-spring-restdocs-mockmvc
-spring-security-test
+  1. spring-boot-starter-actuator
+  2. spring-boot-starter-data-jpa
+  3. spring-boot-starter-validation
+  4. spring-boot-starter-web
+  5. spring-boot-devtools
+  6. mysql-connector-j
+  7. lombok
+  8. spring-boot-starter-test
+  9. spring-restdocs-mockmvc
+  10. spring-security-test
+
 
 # how to start?
 1. I used Inteliji for the backend with Java 17
