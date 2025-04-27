@@ -41,10 +41,17 @@ spring-security-test
 the table is: student with (id, firstName, lastName, email, department and gpa)
 
 # how the code built:
-with controller-service-repository interface
-model- student and department (ENUM) 
-exception - student exception
-dto- for honor student with 3 columns only
-sql - there you can see the creation of the table
-config - for making the server async with threadpool for efficient
-util - message response and etc..
+  1. with controller-service-repository interface
+  2. Controllers with honor-student and student
+  3. service for each controller
+  4. one repository for one table
+  5. model- student and department (ENUM)
+  6. exception - student exception
+  7. dto- for honor student with 3 columns only
+  8. sql - there you can see the creation of the table
+  9. config - for making the server async with threadpool for efficient
+  10. util - message response and etc..
+
+
+
+
