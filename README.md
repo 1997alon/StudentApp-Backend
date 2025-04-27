@@ -1,7 +1,7 @@
 # welcome to Student Backend
 ## go to the Front: [StudentApp Front](https://github.com/1997alon/StudentApp-Front)
 Backend made in Java spring with Maven
-## maven dependecies:
+## maven dependecies of Spring:
   1. spring-boot-starter-actuator
   2. spring-boot-starter-data-jpa
   3. spring-boot-starter-validation
