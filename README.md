@@ -37,7 +37,7 @@ spring-security-test
   2. /getHighestGpaPerDepartment : get the best student from each department
   3. /sortHonorStudents : sort honor student by: sortBy(Column) and direction("asc" or "desc")
 ## connect to MySQL:
-# built Schema named studentapp and inside one table:
+### built Schema named studentapp and inside one table:
 the table is: student with (id, firstName, lastName, email, department and gpa)
 
 # how the code built:
